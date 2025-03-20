@@ -10,6 +10,9 @@
   * Make docs consistent with code (#657)
   * Highlight that the base branch is v3 (#719)
   * Improve documentation for config options (#760)
+  * Add platform X supporting in README (#780)
+  * Update readme_banner.svg to support dark mode (#813)
+  * Add a warning regarding HEAD commit of `master` (#861)
 
 ### Minor Enhancements
 
@@ -37,6 +40,12 @@
   * Add `auto` skin which honors the `prefers-color-scheme` media query (#634)
   * Add google scholar. (#673)
   * Add `x` social icon (#756)
+  * Add Codeberg icon and update list of supported social links (#788)
+  * Added whatsapp social icon. (#781)
+  * Update GitLab icon (#765)
+  * Add Bluesky to social media platforms (#799)
+  * Simplify inserting markup before closing body tag (#854)
+  * Render headings and text in different colors (#866)
 
 ### Major Enhancements
 
@@ -46,6 +55,11 @@
   * Add adaptive skin: `solarized` (#594)
   * Generate social iconsheet during build (#686)
   * Rename `default` layout to `base` (#690)
+  * Render social platform icons via Font Awesome library (#839)
+  * Move `show_excerpts` setting to be under `minima` namespace (#841)
+  * Simplify `.wrapper` style definition (#852)
+  * Improve navigation styling and experience (#856)
+  * Set default `font-weight` of headings to `500` (#868)
 
 ### Bug Fixes
 
@@ -68,6 +82,18 @@
   * Improve &#34;Subscribe&#34; link in footer (#698)
   * Fix deprecation warnings from Dart Sass (#700)
   * Fix reference to base layout in `404.html` (#713)
+  * Minimal fixes for Disqus (#775)
+  * Fix deprecation warnings (#796) (#797)
+  * Avoid clipping responsive social SVG icons (#808)
+  * Update google-analytics.html (#824)
+  * Fix Google Analytics script (#825)
+  * Use single-quotes when nested within double-quoted attributes (#840)
+  * Improve rendering of post header (#855)
+  * Improve link underline styling (#857)
+  * Replace `page.date` with `pdate` consistently in `post` layout (#859)
+  * Reduce wrapper padding on small screens (#865)
+  * Adjust the font size of blockquotes (#492)
+  * Adjust table-text color based on heading-color (#869)
 
 ### Development Fixes
 
@@ -81,6 +107,18 @@
   * Build and deploy demo site via GH Action workflow (#636)
   * Improve readability of config file (#703)
   * Trigger demo-site build manually (#714)
+  * Update History document for v2.5.2 (#803)
+
+## 2.5.2
+
+### Bug Fixes
+
+  * Fix deprecation warnings from Dart Sass (#801)
+
+### Development Fixes
+
+  * Set up CI for `2.5-stable` branch (#800)
+  * Release gem from 2.5-stable via GitHub Actions (#802)
 
 ## 2.5.1
 
